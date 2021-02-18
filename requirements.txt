@@ -1,0 +1,7 @@
+virtualenv
+xmltodict
+requests
+netmiko
+ansible
+nornir
+ncclient

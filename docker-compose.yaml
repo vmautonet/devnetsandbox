@@ -1,0 +1,11 @@
+---
+version: "3"
+services:
+  devnetsandbox:
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+    - "$LOCALWORKDIR:/CODE:rw"
+    network_mode: "bridge"
+    container_name: dnsb
