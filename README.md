@@ -23,12 +23,20 @@ Python packages:
 
 Feel free to add your own packages before building by editing the [requirements.txt](requirements.txt)
 
+### Personalization
+
 You can map your own local development directory in the .env file:
 ```
 LOCALWORKDIR=< put your devel folder path here-
 ```
 
-Build with
+You can find the devel folder under /CODE on the docker container
+
+### Build with
 ```
 docker-compose up -d
 ```
+### Get in
+You can use both docker and SSH to get in
+> IT IS STRONGLY ADVISED TO CHANGE THE DEFAULT ROOT PASSWORD
+> IT MIGHT BE EVEN BETTER TO CREATE A NEW ACCOUNT... BUT IT'S A DEV BOX, SO ROOT WORKS FOR ME
