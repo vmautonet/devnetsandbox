@@ -27,7 +27,7 @@ Feel free to add your own packages before building by editing the [requirements.
 
 You can map your own local development directory in the .env file:
 ```
-LOCALWORKDIR=< put your devel folder path here-
+LOCALWORKDIR=<put-your-local-devel-folder-path-here>
 ```
 
 You can find the devel folder under /CODE on the docker container
