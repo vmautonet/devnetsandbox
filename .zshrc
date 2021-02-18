@@ -72,10 +72,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  web-search
-  jsontools
-  macports
-  node
   sudo
   docker
   ansible

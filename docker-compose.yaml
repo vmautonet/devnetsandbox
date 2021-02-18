@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    image: howdareyou82/devnetsandbox
+    image: howdareyou82/devnetsandbox:latest
     volumes:
     - "$LOCALWORKDIR:/CODE:rw"
     network_mode: "bridge"
